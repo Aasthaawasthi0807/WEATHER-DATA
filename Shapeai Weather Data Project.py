@@ -25,4 +25,12 @@ print ("Current weather desc  :",weather_desc)
 print ("Current Humidity      :",hmdt, '%')
 print ("Current wind speed    :",wind_spd ,'kmph')
 
+dataDir = r"C:\Users\awast\Desktop\AASTHA\AASTHA PYTHON\Shapeai Weather Data Project.py"
+dataDir_out = r"C:\Users\awast\Desktop\AASTHA\AASTHA PYTHON\Shapeai Weather Data Project.py"
+
+sidArr = ["53463"]
+fields = ["TEM", "TMN", "TMX", "PRE", "RHU", "WIN", "PRS", "SSD"]  
+START = "2021-06-22"
+END = "2021-12-22"
+
 
